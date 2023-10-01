@@ -20,68 +20,67 @@ function App() {
       </header> */}
       <div class="container">
         <header>
-            <div class="container_vegetables">
-                    <h1>Vegetables</h1>
-            </div> 
-            <div class="container_headerrightside">
-                
-              <img src="/img/btn_facebook.png" class="btn_facebook"/>
-              <img src="/img/btn_instagram.png" class="btn_instagram"/>
-
-                <div class="line_header"></div>
-                <a herf="" class="box_user login">
-                    <p>LOGIN</p>
-                </a>
-                <a herf="" class="box_user join">
-                        <p>JOIN</p>
-                </a>
-            </div>
+          <div class="container-title">
+            <div class="box-title">Vegetables</div>
+            <img src="img/btn_facebook.png"  class="title-pic"/>
+            <img src="img/btn_instagram.png"  class="title-pic"/>
+            <div class="line"></div>
+            <div class="login-box">LOGIN</div>
+            <div class="join-box">JOIN</div>
+          </div>
         </header>
         <nav>
-            <ul class="nav_list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Vegetables</a></li>
-                <li><a href="#">Online</a></li>
-                <li><a href="#">Contact</a></li>
+          <div class= "nav-box">
+            <ul>
+                <li class= "home">Home</li>
+                <li class= "about">About Us</li>
+                <li class= "vege">Vegetables</li>
+                <li class= "online">Online</li>
+                <li class= "contact">Contact</li>
             </ul>
+          </div>
         </nav>
-        <main>
-           
-            <img src="/img/img_main_pumpkin.png" class="img_main_pumpkin"/>
-        </main>
-        <article>
-            <section>
-                <div class="box_section_header">
-                    <h3>Vegetables</h3>
-                </div>
-                <div class="img_vegetable">
-                    
-                    <img src="/img/img_vegetables_pepper.png" class="img_vegetables_pepper"/>
-                    <img src="/img/img_vegetables_carrot.png" class="img_vegetables_carrot"/>
-                    <img src="/img/img_vegetables_corn.png" class="img_vegetables_corn"/>
 
+        <div class="mainpic">
+          <img src="img/img_main_pumpkin.png" />
+        </div>
+        <div class="main-container">
+            <aside>
+                <div class="title-box">
+                    Vegetables
                 </div>
-            </section>
-            <section>
-                <div class="box_section_header">
-                    <h3>Contact</h3>
+
+                <div class="pic-container">
+                    <img src="img/img_vegetables_pepper.png" />
+                    <img src="img/img_vegetables_carrot.png" />
+                    <img src="img/img_vegetables_corn.png" />
                 </div>
-                <div class="bg_contact_content">
-                    <p class="contact_content_first">For any questions or suggestions about Vegetables, Vegetables Club or your 
+            </aside>
+
+            <article >
+                <div class="title-box">
+                    Contact
+                </div>
+
+                <div class="text-box">
+                    <div class="text1">
+                        For any questions or suggestions about Vegetables, Vegetables Club or your 
                         online order you can contact Vegetables Customer Service by phone, email 
-                        or post and we’ll be happy to help.</p>
-                    <div class="line_contact_text"></div>
-                    <p class="contact_content_second">E-mail : Vegetables@aaabbccc.com <br/>PHONE : +886-123-456-789</p>
+                        or post and we’ll be happy to help.
+                    </div>
+                    <div class="text-line"></div>
+                    <div class="text2">
+                        E-mail : Vegetables@aaabbccc.com <br/>
+                        PHONE : +886-123-456-789
+                    </div>
                 </div>
-            </section>
-        </article>
-        <div>
+                
+            </article>
+        </div>
         <footer>
-            <p class="footer">Copyrights 2017 Vegetables cise / Design by Vegetables</p>
+          Copyrights 2017 Vegetables cise / Design by Vegetables
         </footer>
-      </div>
-    </div>
+  </div>
   </div>
   );
 }

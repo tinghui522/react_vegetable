@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 36px 250px 0 250px;
+
 }
 
 .App-logo {
@@ -35,4 +37,223 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*{
+  padding:0;
+  margin:0;
+  display:border-box;
+  font-family:Arial;
+} 
+
+.container {
+  background-color: #EDF2C5;
+  width: 940px; 
+  height: 100vh; 
+}
+
+body{
+  width:1440px;
+  height:auto;
+  background-color:#edf2c5;
+  font-family:Arial;
+}
+
+h1{
+  font-size:44px;
+  color:#778a50;
+  line-height:62px;
+  height:62px;
+  font-weight:900;
+}
+
+header{
+  margin-top:36px;
+  display:flex;
+  justify-content:space-between;
+  height: 103px;
+}
+
+.box-title {
+  padding:36px 469px 5px 0px; 
+  width: 271px;
+  font-family: "Noto Sans";
+  font-weight: 900;
+  word-wrap: break-word;
+  font-size: 44px;
+  color: #778A50;
+  line-height: 62px;
+}
+
+.title-pic {
+  margin:61px 10px 17px 0px; 
+  width: 25px;
+  height: 25px;
+}
+
+.line {
+  margin:60px 10px 18px 0px; 
+  width:1px;
+  height: 25px;
+  background-color: #778a50;
+} 
+
+.login-box {
+  margin:60px 10px 18px 0px;
+  padding: 5px 6px;
+  width:46px;
+  height:15px;
+  
+  border-radius: 3px;
+  border: solid 1px #778a50;
+
+  font-family: "Noto Sans";
+  font-weight: 700;
+  word-wrap: break-word;
+  font-size:14px;
+  color:#778a50;
+}
+
+.join-box {
+  margin:60px 0px 18px 0px; 
+  padding: 5px 6px;
+  width:35px;
+  height:15px;
+
+  border-radius: 3px;
+  border: solid 1px #778a50;
+
+  font-family: "Noto Sans";
+  font-weight: 700;
+  word-wrap: break-word;
+  font-size:14px;
+  color:#778a50;
+}
+
+.container-title {
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.nav-box {
+  margin: 0px 0px 20px 0px;
+  width: 940px;
+  height: 44px;
+  background-color: #778a50;
+  border-radius: 3px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+li {
+  padding: 10px 30px 11px 30px;
+  display: inline-block;
+  font-family: "Noto Sans";
+  font-weight: 900;
+  word-wrap: break-word;
+  font-size: 16px;
+  color: #edf2c5;
+  line-height: 24px;
+}
+
+.home {
+  width: 51px;
+}
+.about{
+  width: 80px;
+}
+.vege {
+  width: 98px;
+}
+.online {
+  width: 56px;
+}
+.contact {
+  width: 69px;
+}
+
+.mainpic {
+  margin: 0px 0px 30px 0px;
+}
+
+.main-container {
+  display: flex;
+  height:235px;
+}
+
+.pic-container {
+  display: flex;
+  flex-direction: row;
+  width: 444px;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  
+}
+
+.title-box {
+  width: 414px;
+  line-height: 23px;
+  padding: 10px 0px 12px 30px;
+  background-color: #778a50;
+  margin-bottom: 15px;
+  font-family: "Noto Sans";
+  font-weight: 900;
+  word-wrap: break-word;
+  font-size: 16px;
+  color: #edf2c5;
+}
+
+article {
+  margin-left:52px;
+}
+
+.text-box {
+  width: 414px;
+  height: 140px;
+  margin-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #f7fbda;
+
+  font-family:Arial;
+  font-size: 12px;
+  color:#7d7d7d;
+}
+
+.text1 {
+  line-height: 15px;
+  padding-top: 15px;
+  height: 44px;
+}
+
+.text2 {
+  line-height: 21px;
+  margin-top:14px;
+  height: 35px;
+}
+
+.text-line {
+  height: 1px;
+  width: 414px;
+  background-color: #7d7d7d;
+  margin-top: 14px;
+}
+
+footer {
+  background-color: #778a50;
+  padding: 23px 200px 23px 200px;
+  line-height:14px;
+  margin: 0 0px 0 -250px ;
+  justify-content: center;
+  font-family: Arial;
+  font-size: 12px;
+  color: #edf2c5;
+  width: 1118px;
 }
