@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import course_data from "./json/data.json";
+import CourseElement from "./CourseElement"
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
             <div class="box-title">Vegetables</div>
             <img src="img/btn_facebook.png"  class="title-pic"/>
             <img src="img/btn_instagram.png"  class="title-pic"/>
+            
             <div class="line"></div>
             <div class="login-box">LOGIN</div>
             <div class="join-box">JOIN</div>
@@ -42,7 +45,10 @@ function App() {
         </nav>
 
         <div class="mainpic">
-          <img src="img/img_main_pumpkin.png" />
+          {/* <img src="img/img_main_pumpkin.png" /> */}
+          <CourseElement
+             course_img={course_data[0].course_img}
+          />
         </div>
         <div class="main-container">
             <aside>
@@ -51,9 +57,18 @@ function App() {
                 </div>
 
                 <div class="pic-container">
-                    <img src="img/img_vegetables_pepper.png" />
+                    {/* <img src="img/img_vegetables_pepper.png" />
                     <img src="img/img_vegetables_carrot.png" />
-                    <img src="img/img_vegetables_corn.png" />
+                    <img src="img/img_vegetables_corn.png" /> */}
+                    <CourseElement
+                      course_img={course_data[1].course_img}
+                    />
+                    <CourseElement
+                      course_img={course_data[2].course_img}
+                    />
+                    <CourseElement
+                      course_img={course_data[3].course_img}
+                    />
                 </div>
             </aside>
 

@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "course_title": "mainpic",
+      "course_img": "img/img_main_pumpkin.png"
+    },
+    {
+      "id": 2,
+      "course_title": "vegetable1",
+      "course_img": "img/img_vegetables_pepper.png"
+    },
+    {
+      "id": 3,
+      "course_title": "vegetable2",
+      "course_img": "img/img_vegetables_carrot.png"
+    },
+    {
+      "id": 4,
+      "course_title": "vegetable3",
+      "course_img": "img/img_vegetables_corn.png"
+    },
+    {
+      "id": 5,
+      "course_title": "text1",
+      "course_desc": "For any questions or suggestions about Vegetables, Vegetables Club or your online order you can contact Vegetables Customer Service by phone, email or post and we’ll be happy to help."
+    },
+    {
+      "id": 6,
+      "course_title": "text2",
+      "course_desc": "E-mail : Vegetables@aaabbccc.com </br> PHONE : +886-123-456-789"
+    }
+  ]
